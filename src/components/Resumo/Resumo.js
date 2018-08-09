@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { URL_API } from './../../services/base';
 
 class Resumo extends Component{
     constructor(props){
@@ -22,7 +23,7 @@ class Resumo extends Component{
     }
 
     componentDidMount(){
-        fetch("http://www.devup.com.br/php/api-dashboard/api/resumo")
+        fetch( URL_API +  "/resumo")
         .then(resultado => resultado.json().then(dados => this.setState(dados)));
     }
 
