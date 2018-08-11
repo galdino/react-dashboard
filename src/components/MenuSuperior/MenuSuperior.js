@@ -5,7 +5,7 @@ class MenuSuperior extends Component{
     render(){
         return (
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">                
-                <Link to="/" className="navbar-brand">Galdino</Link>
+                <Link to="/" className="navbar-brand">Dashboard</Link>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
